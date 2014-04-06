@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{F4E0D4FC-AA77-DB5D-6EDC-5E35AA06FF82}</ProjectGuid>
+	<ProjectGuid>{38608297-B0C1-26CF-3DB3-2C280C40B7D7}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -50,6 +50,7 @@
      <Compile Include="Assets\Scripts\BackgroundMove.cs" />
      <Compile Include="Assets\Scripts\BloombergChildMovement.cs" />
      <Compile Include="Assets\Scripts\BloombergSpawner.cs" />
+     <Compile Include="Assets\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\FoodScript.cs" />
      <Compile Include="Assets\Scripts\PlayerScript.cs" />
      <Compile Include="Assets\Scripts\Score.cs" />

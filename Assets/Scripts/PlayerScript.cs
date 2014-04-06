@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class PlayerScript : MonoBehaviour {
@@ -33,7 +33,7 @@ public class PlayerScript : MonoBehaviour {
     }
 
 	void ApplyPoints(int points){
-		score += 20;
+		score += points;
 		print("Your score is " + score);
 	}
 
@@ -52,6 +52,10 @@ public class PlayerScript : MonoBehaviour {
             Duck();
 
         }
+
+//		if (Input.GetKeyDown (KeyCode.RightArrow) || Input.GetKeyDown (KeyCode.D)) {
+//			transform.position = new Vector3((transform.position.x + 1) * Time.deltaTime, transform.position.y, transform.position.z);
+//		}
 	}
 
 	void OnGUI() {

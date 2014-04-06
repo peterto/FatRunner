@@ -46,7 +46,7 @@ public class BloombergChildMovement : MonoBehaviour {
 			player = GameObject.FindWithTag("Player");
 			player.rigidbody2D.velocity = Vector2.zero;
 			print("An enemy hit you.");
-			player.SendMessage("ApplyPoints", 20);
+			player.SendMessage("ApplyPoints", -20);
 			Destroy(this.gameObject);
 		}
 
