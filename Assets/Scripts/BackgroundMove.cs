@@ -6,7 +6,7 @@ public class BackgroundMove : MonoBehaviour {
 	public int speed = 3;
 	void moveBackground () {
 		//this.rigidbody2D.AddForce(-Vector2.right * speed);
-		this.transform.position -= new Vector3(0.05f, 0, 0);
+		this.transform.position -= new Vector3(0.01f, 0, 0);
 	}
 	// Use this for initialization
 	void Start () {
